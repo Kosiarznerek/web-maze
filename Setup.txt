@@ -1,0 +1,8 @@
+Uruchomienie
+1) Na folderze z projektem komenda w terminalu 'node serwer.js'
+2) W przeglądarce (zalecany Chrome) adres 'localhost:3000/index.html'
+
+Założenia projektu
+1) Na serwerze generuje się losowy labirynt, który jest rozsyłany do graczy
+2) Kto pierwszy dojdzie do mety (zielone światło) - wygrywa.
+3) Gra dla min 2 osób

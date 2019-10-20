@@ -1,0 +1,35 @@
+#threeJS_Canvas {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.komunikatPojemnik {
+    z-index: 999;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #dfe3ee;
+    border: 1px solid #8b9dc3;
+    box-sizing: border-box;
+}
+
+.komunikatPojemnik .komunikatTresc {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #3b5998;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(247, 247, 247, 0.9);
+    border-radius: 8px;
+    border: 1px solid #3b5998;
+}
